@@ -23,9 +23,11 @@ protected:
 public:
 	CListCtrl m_list_activite;
 
-	void Activite::ExtractDataFromDB();
+	void Activite::ExtractDataFromDB(CString sequel);
+	void Activite::ComboClicked();
 	CComboBox combo1;
 	CComboBox combo2;
 	CComboBox combo3;
 	CComboBox combo4;
+	afx_msg void OnCbnSelchangeACombo();
 };
