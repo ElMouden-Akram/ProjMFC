@@ -32,4 +32,9 @@ public:
 	afx_msg void OnCbnSelchangeACombo();
 	afx_msg void OnBnClickedButton1();
 	afx_msg void OnBnClickedActivActualiser();
+	afx_msg void SelectItemOnList(NMHDR *pNMHDR, LRESULT *pResult);
+	CString m_nomAct;
+	CString m_nomVil;
+	CString m_nomPay;
+	CString m_nomCon;
 };

@@ -10,3 +10,6 @@
 ## How to upload on this project (push your repository):
 
 not yet.
+
+##Remarque :
+* Oublier d'ajouter le champ de "language" dans les requettes.
