@@ -30,4 +30,6 @@ public:
 	CComboBox combo3;
 	CComboBox combo4;
 	afx_msg void OnCbnSelchangeACombo();
+	afx_msg void OnBnClickedButton1();
+	afx_msg void OnBnClickedActivActualiser();
 };
